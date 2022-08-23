@@ -16,9 +16,9 @@ let createFareMultiplier = function (rate){
     }
 }
 
-let fareDoubler = createFareMultiplier(2);
+const fareDoubler = createFareMultiplier(2);
 
-let fareTripler = createFareMultiplier(3);
+const fareTripler = createFareMultiplier(3);
 
 let selectDifferentDrivers = function (array, rate){
     return rate(array);
